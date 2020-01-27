@@ -1,0 +1,397 @@
+[
+  {
+    "tvtitle": "Bandara 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Bandara2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Bandara2.stream.png"
+  },
+  {
+    "tvtitle": "Blok O",
+    "tvmedia": "http://202.169.224.76:1935/atcs/BlokO.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/BlokO.stream.png"
+  },
+  {
+    "tvtitle": "Damai Timur",
+    "tvmedia": "http://202.169.224.76:1935/atcs/DamaiTimur.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/DamaiTimur.stream.png"
+  },
+  {
+    "tvtitle": "Demangan 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Demangan2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Demangan2.stream.png"
+  },
+  {
+    "tvtitle": "Galeria",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Galeria.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Galeria.stream.png"
+  },
+  {
+    "tvtitle": "Gramedia",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Gramedia.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Gramedia.stream.png"
+  },
+  {
+    "tvtitle": "Jujur",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Jujur.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Jujur.stream.png"
+  },
+  {
+    "tvtitle": "Kentungan",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Kentungan.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Kentungan.stream.png"
+  },
+  {
+    "tvtitle": "Kleringan 1",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Kleringan1.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Kleringan1.stream.png"
+  },
+  {
+    "tvtitle": "Kota Gede",
+    "tvmedia": "http://202.169.224.76:1935/atcs/KotaGede.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/KotaGede.stream.png"
+  },
+  {
+    "tvtitle": "Madu Kismo",
+    "tvmedia": "http://202.169.224.76:1935/atcs/MaduKismo.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/MaduKismo.stream.png"
+  },
+  {
+    "tvtitle": "Melia",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Melia.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Melia.stream.png"
+  },
+  {
+    "tvtitle": "Ngeplang",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Ngeplang.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Ngeplang.stream.png"
+  },
+  {
+    "tvtitle": "Pedes",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Pedes.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Pedes.stream.png"
+  },
+  {
+    "tvtitle": "Piyungan",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Piyungan.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Piyungan.stream.png"
+  },
+  {
+    "tvtitle": "Proliman Bogem",
+    "tvmedia": "http://202.169.224.76:1935/atcs/ProlimanBogem.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/ProlimanBogem.stream.png"
+  },
+  {
+    "tvtitle": "Sentul",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Sentul.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Sentul.stream.png"
+  },
+  {
+    "tvtitle": "Simpang SGM",
+    "tvmedia": "http://202.169.224.76:1935/atcs/SimpangSGM.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/SimpangSGM.stream.png"
+  },
+  {
+    "tvtitle": "Tugu",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Tugu.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Tugu.stream.png"
+  },
+  {
+    "tvtitle": "UPNSeturan",
+    "tvmedia": "http://202.169.224.76:1935/atcs/UPNSeturan.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/UPNSeturan.stream.png"
+  },
+  {
+    "tvtitle": "Bantulan",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Bantulan.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Bantulan.stream.png"
+  },
+  {
+    "tvtitle": "Borobudur Plaza",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Bandara2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/BorobudurPlaza.stream.png"
+  },
+  {
+    "tvtitle": "Demak Ijo",
+    "tvmedia": "http://202.169.224.76:1935/atcs/DemakIjo.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/DemakIjo.stream.png"
+  },
+  {
+    "tvtitle": "Dongkalan",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Dongkelan.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Dongkelan.stream.png"
+  },
+  {
+    "tvtitle": "Gamping",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Gamping.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Gamping.stream.png"
+  },
+  {
+    "tvtitle": "Janti",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Janti.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Janti.stream.png"
+  },
+  {
+    "tvtitle": "Kamdanen",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Kamdanen.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Kamdanen.stream.png"
+  },
+  {
+    "tvtitle": "Kentungan 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Kentungan2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Kentungan2.stream.png"
+  },
+  {
+    "tvtitle": "Kleringan 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Kleringan2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Kleringan2.stream.png"
+  },
+  {
+    "tvtitle": "KotaGedhe 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/KotaGedhe2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/KotaGedhe2.stream.png"
+  },
+  {
+    "tvtitle": "Maguwo",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Maguwo.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Maguwo.stream.png"
+  },
+  {
+    "tvtitle": "Monjali",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Monjali.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Monjali.stream.png"
+  },
+  {
+    "tvtitle": "Ngeplang 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Ngeplang2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Ngeplang2.stream.png"
+  },
+  {
+    "tvtitle": "Palem Gurih",
+    "tvmedia": "http://202.169.224.76:1935/atcs/PelemGurih.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/PelemGurih.stream.png"
+  },
+  {
+    "tvtitle": "Pogung",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Pogung.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Pogung.stream.png"
+  },
+  {
+    "tvtitle": "Raden Ronggo",
+    "tvmedia": "http://202.169.224.76:1935/atcs/RadenRonggo.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/RadenRonggo.stream.png"
+  },
+  {
+    "tvtitle": "Serangan",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Serangan.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Serangan.stream.png"
+  },
+  {
+    "tvtitle": "Tempel",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Tempel.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Tempel.stream.png"
+  },
+  {
+    "tvtitle": "Tugu 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Tugu2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Tugu2.stream.png"
+  },
+  {
+    "tvtitle": "Wiyoro",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Wiyoro.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Wiyoro.stream.png"
+  },
+  {
+    "tvtitle": "Beran",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Beran.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Beran.stream.png"
+  },
+  {
+    "tvtitle": "Condong Catur",
+    "tvmedia": "http://202.169.224.76:1935/atcs/CondongCatur.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/CondongCatur.stream.png"
+  },
+  {
+    "tvtitle": "Demak Ijo 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/DemakIjo2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/DemakIjo2.stream.png"
+  },
+  {
+    "tvtitle": "Dongkelan 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Dongkelan2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Dongkelan2.stream.png"
+  },
+  {
+    "tvtitle": "Giwangan",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Giwangan.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Giwangan.stream.png"
+  },
+  {
+    "tvtitle": "Jati Kencana",
+    "tvmedia": "http://202.169.224.76:1935/atcs/JatiKencana.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/JatiKencana.stream.png"
+  },
+  {
+    "tvtitle": "Karang Nongko",
+    "tvmedia": "http://202.169.224.76:1935/atcs/KarangNongko.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/KarangNongko.stream.png"
+  },
+  {
+    "tvtitle": "Ketandan 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Ketandan2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Ketandan2.stream.png"
+  },
+  {
+    "tvtitle": "Kleringan 3",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Kleringan3.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Kleringan3.stream.png"
+  },
+  {
+    "tvtitle": "Kronggahan",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Kronggahan.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Kronggahan.stream.png"
+  },
+  {
+    "tvtitle": "Maguwo 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Maguwo2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Maguwo2.stream.png"
+  },
+  {
+    "tvtitle": "Monjali 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Monjali2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Monjali2.stream.png"
+  },
+  {
+    "tvtitle": "Pakem 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Pakem2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Pakem2.stream.png"
+  },
+  {
+    "tvtitle": "Palem Gurih 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/PelemGurih2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/PelemGurih2.stream.png"
+  },
+  {
+    "tvtitle": "Prambanan",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Prambanan.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Prambanan.stream.png"
+  },
+  {
+    "tvtitle": "Sedayu",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Sedayu.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Sedayu.stream.png"
+  },
+  {
+    "tvtitle": "Seturan 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Seturan2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Seturan2.stream.png"
+  },
+  {
+    "tvtitle": "Tempel 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Tempel2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Tempel2.stream.png"
+  },
+  {
+    "tvtitle": "UIN",
+    "tvmedia": "http://202.169.224.76:1935/atcs/UIN.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/UIN.stream.png"
+  },
+  {
+    "tvtitle": "Wojo",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Wojo.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Wojo.stream.png"
+  },
+  {
+    "tvtitle": "Besi",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Besi.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Besi.stream.png"
+  },
+  {
+    "tvtitle": "Condong Catur 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/CondongCatur2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/CondongCatur2.stream.png"
+  },
+  {
+    "tvtitle": "Demangan",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Demangan.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Demangan.stream.png"
+  },
+  {
+    "tvtitle": "Druwo",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Druwo.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Druwo.stream.png"
+  },
+  {
+    "tvtitle": "Giwangan 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Giwangan2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Giwangan2.stream.png"
+  },
+  {
+    "tvtitle": "Jejeran",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Jejeran.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Jejeran.stream.png"
+  },
+  {
+    "tvtitle": "Kasihan",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Kasihan.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Kasihan.stream.png"
+  },
+  {
+    "tvtitle": "Kids Fun",
+    "tvmedia": "http://202.169.224.76:1935/atcs/KidsFun.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/KidsFun.stream.png"
+  },
+  {
+    "tvtitle": "Klodran",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Klodran.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Klodran.stream.png"
+  },
+  {
+    "tvtitle": "MMUGM",
+    "tvmedia": "http://202.169.224.76:1935/atcs/MMUGM.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/MMUGM.stream.png"
+  },
+  {
+    "tvtitle": "Manding",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Manding.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Manding.stream.png"
+  },
+  {
+    "tvtitle": "Ngasem",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Ngasem.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Ngasem.stream.png"
+  },
+  {
+    "tvtitle": "Patran",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Patran.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Patran.stream.png"
+  },
+  {
+    "tvtitle": "Permata",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Permata.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Permata.stream.png"
+  },
+  {
+    "tvtitle": "Prambanan 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Prambanan2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Prambanan2.stream.png"
+  },
+  {
+    "tvtitle": "Selokan Mataram",
+    "tvmedia": "http://202.169.224.76:1935/atcs/SelokanMataram.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/SelokanMataram.stream.png"
+  },
+  {
+    "tvtitle": "Simpang 3 Pasar Kembang",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Simpang3PasarKembang.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Simpang3PasarKembang.stream.png"
+  },
+  {
+    "tvtitle": "Toyan",
+    "tvmedia": "http://202.169.224.76:1935/atcs/Toyan.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/Toyan.stream.png"
+  },
+  {
+    "tvtitle": "UIN 2",
+    "tvmedia": "http://202.169.224.76:1935/atcs/UIN2.stream/playlist.m3u8",
+    "tvlogo": "http://mam.jogjaprov.go.id/atcs-thumbs/UIN2.stream.png"
+  }
+]
