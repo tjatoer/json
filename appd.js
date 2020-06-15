@@ -40,15 +40,15 @@ document['addEventListener'](_0xa712('0x1da'), function () {
         /*if (_0x1959b4[_0xa712('0x213')](_0xa712('0x224')) > -0x1) {
             $['alert']('Sedang\x20Maintenance,\x20Kunjungi\x20<a\x20href=\x27https://dutafilm.com\x27\x20style=\x27color:#e61c22\x27>dutafilm.com</a>');
             return;
-        }
+        }*/
         cordova[_0xa712('0x1a4')]['getVersionNumber']()[_0xa712('0x64')](function (_0x10da38) {
             appVersion = _0x10da38;
             $(_0xa712('0x23d'))[_0xa712('0x258')](_0xa712('0x262') + appVersion);
             appCheck(appVersion);
-        });*/
+        })
         document[_0xa712('0x1c9')](_0xa712('0x16b'), function () {
             if (!doingTask) httpGetVidplay();
-            //appCheck(appVersion, 0x1);
+            appCheck(appVersion, 0x1);
             if ($(_0xa712('0x1d3'))[_0xa712('0x25')] == 0x1) getRecommends();
         }, ![]);
     });
