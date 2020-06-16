@@ -45,7 +45,7 @@ document['addEventListener'](_0xa712('0x1da'), function () {
             appVersion = _0x10da38;
             $(_0xa712('0x23d'))[_0xa712('0x258')](_0xa712('0x262') + appVersion);
             appCheck(appVersion);
-            alert(0x1);
+            alert($(_0xa712('0x1d3'))[_0xa712('0x25')]);
         })
         document[_0xa712('0x1c9')](_0xa712('0x16b'), function () {
             if (!doingTask) httpGetVidplay();
