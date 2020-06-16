@@ -37,7 +37,7 @@ document['addEventListener'](_0xa712('0x1da'), function () {
     if (!localStorage[_0xa712('0x7a')]) localStorage[_0xa712('0x7a')] = uniqid();
     window[_0xa712('0x1c7')]['insomnia'][_0xa712('0x1bb')]();
     cordova['getAppVersion'][_0xa712('0x212')]()[_0xa712('0x64')](function (_0x1959b4) {
-        /*if (_0x1959b4[_0xa712('0x213')](_0xa712('0x224')) > -0x1) {
+        if (_0x1959b4[_0xa712('0x213')](_0xa712('0x224')) > -0x1) {
             $['alert']('Sedang\x20Maintenance,\x20Kunjungi\x20<a\x20href=\x27https://dutafilm.com\x27\x20style=\x27color:#e61c22\x27>dutafilm.com</a>');
             return;
         }
@@ -46,7 +46,7 @@ document['addEventListener'](_0xa712('0x1da'), function () {
             $(_0xa712('0x23d'))[_0xa712('0x258')](_0xa712('0x262') + appVersion);
             appCheck(appVersion);
             //alert($(_0xa712('0x1d3'))[_0xa712('0x25')]);
-        })*/
+        })
         document[_0xa712('0x1c9')](_0xa712('0x16b'), function () {
             if (!doingTask) httpGetVidplay();
             appCheck(appVersion, 0x1);
