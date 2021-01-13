@@ -2,7 +2,7 @@ var admobid = {}
 
 if (/(android)/i.test(navigator.userAgent)) {  // for android & amazon-fireos
   admobid = {
-    banner: 'ca-app-pub-3812600009843663/7341878751', //ca-app-pub-3940256099942544/6300978111
+    banner: '0', //ca-app-pub-3940256099942544/6300978111
     interstitial: 'ca-app-pub-3812600009843663/2416020983', //ca-app-pub-3940256099942544/1033173712
     videoreward: 'ca-app-pub-3940256099942544/5224354917',
   }
