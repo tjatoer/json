@@ -3,7 +3,7 @@ var admobid = {}
 if (/(android)/i.test(navigator.userAgent)) {  // for android & amazon-fireos
   admobid = {
     banner: '0', //ca-app-pub-3940256099942544/6300978111
-    interstitial: 'ca-app-pub-3812600009843663/3208329066', //ca-app-pub-3940256099942544/1033173712
+    interstitial: 'ca-app-pub-1372913626105815/1021498472', //ca-app-pub-3940256099942544/1033173712
     videoreward: 'ca-app-pub-3940256099942544/5224354917',
   }
 } else if (/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {  // for ios
