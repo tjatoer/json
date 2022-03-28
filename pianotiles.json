@@ -1,18 +1,20 @@
-[
 {
-"tvnama": "Ballistic",
-"tvlink": "https://raw.githubusercontent.com/tjatoer/json/master/raw/ballistic.mp3"
-},
-{
-"tvnama": "Bopeebo",
-"tvlink": "https://raw.githubusercontent.com/tjatoer/json/master/raw/bopeebo.mp3"
-},
-{
-"tvnama": "Carol Rol",
-"tvlink": "https://raw.githubusercontent.com/tjatoer/json/master/raw/carol_rol.mp3"
-},
-{
-"tvnama": "Corruption Chiller",
-"tvlink": "https://raw.githubusercontent.com/tjatoer/json/master/raw/corruption_chiller.mp3"
+  "data":[
+          {
+          "tvnama": "Ballistic",
+          "tvlink": "https://raw.githubusercontent.com/tjatoer/json/master/raw/ballistic.mp3"
+          },
+          {
+          "tvnama": "Bopeebo",
+          "tvlink": "https://raw.githubusercontent.com/tjatoer/json/master/raw/bopeebo.mp3"
+          },
+          {
+          "tvnama": "Carol Rol",
+          "tvlink": "https://raw.githubusercontent.com/tjatoer/json/master/raw/carol_rol.mp3"
+          },
+          {
+          "tvnama": "Corruption Chiller",
+          "tvlink": "https://raw.githubusercontent.com/tjatoer/json/master/raw/corruption_chiller.mp3"
+          }
+         ]
 }
-]
