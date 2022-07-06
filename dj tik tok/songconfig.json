@@ -1,0 +1,524 @@
+[
+  {
+    "path": "Unity.mp3",
+    "name": "Unity - TheFatRat",
+    "bmp": 106,
+    "startTime": 0.05,
+    "diamonds": 0,
+    "type": "OPEN",
+    "closerTiles": 0,
+    "tags": "POPULAR, EDM, RapidJump",
+    "theme": 1
+  },
+  {
+    "path": "Alone_Marshmello.mp3",
+    "name": "Alone - Marshmello",
+    "bmp": 115,
+    "startTime": 0.05,
+    "diamonds": 0,
+    "type": "OPEN",
+    "closerTiles": 0,
+    "tags": "POPULAR, EDM, RapidJump",
+    "theme": 1
+  },
+  {
+    "path": "DJ BUILT A BITCH VIRAL TIKTOK (DJ IMUT REMIX).mp3",
+    "name": "DJ BUILT A BITCH",
+    "bmp": 100,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "VIDEO",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "DJ DYNAMITE -- VIRAL TIKTOK (DJ IMUT REMIX).mp3",
+    "name": "DJ DYNAMITE",
+    "bmp": 100,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "VIDEO",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "DJ SIMPLE DIPLE POP IT -- VIRAL TIKTOK DANCE (DJ IMUT REMIX).mp3",
+    "name": "DJ SIMPLE DIPLE POP IT",
+    "bmp": 100,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "VIDEO",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "ENAK BANGET DEMONS VIRAL TIKTOK (DJ IMUT REMIX).mp3",
+    "name": "ENAK BANGET DEMONS VIRAL TIKTOK",
+    "bmp": 100,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "VIDEO",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "VIRAL TIKTOK DJ EASY ON ME X SORIA MEDLEY (DJ IMUT REMIX).mp3",
+    "name": "DJ EASY ON ME X SORIA MEDLEY",
+    "bmp": 100,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "VIDEO",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "VIRAL TIKTOK IT AIN T ME X CHICA LOCA (DJ IMUT REMIX).mp3",
+    "name": "VIRAL TIKTOK IT AIN T ME X CHICA LOCA",
+    "bmp": 100,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "VIDEO",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "VIRAL TIKTOK SYMPHONY X BOMA BOMA YEI X WAKE ME UP (DJ IMUT REMIX).mp3",
+    "name": "VIRAL TIKTOK SYMPHONY X BOMA BOMA YEI X WAKE ME UP",
+    "bmp": 100,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "VIDEO",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "Brooklyn_Heights.mp3",
+    "name": "Brooklyn Heights",
+    "bmp": 92,
+    "startTime": 0.58,
+    "diamonds": 30,
+    "type": "LOCK",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "MotivationRock.mp3",
+    "name": "Motivation Rock",
+    "bmp": 95,
+    "startTime": 1,
+    "diamonds": 40,
+    "type": "LOCK",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "abcplayground.mp3",
+    "name": "ABC playground",
+    "bmp": 100,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "SunnyDay_Electrojam.mp3",
+    "name": "Sunny Day",
+    "bmp": 100,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "VIDEO",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "springsonata.mp3",
+    "name": "Spring sonata",
+    "bmp": 99,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "Timeflies.mp3",
+    "name": "Time Flies",
+    "bmp": 100,
+    "startTime": 0.9,
+    "diamonds": 30,
+    "type": "VIDEO",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "Windfall.mp3",
+    "name": "TheFatRat - Windfall",
+    "bmp": 102,
+    "startTime": 0.13,
+    "diamonds": 50,
+    "type": "HIDE",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "bestfriendforever.mp3",
+    "name": "Best Friend Forever",
+    "bmp": 102,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "AMomentToRemember.mp3",
+    "name": "A Moment To Remember",
+    "bmp": 91,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "EasterEggHunt_DrTimWaters.mp3",
+    "name": "Easter Egg Hunt",
+    "bmp": 110,
+    "startTime": 0.45,
+    "diamonds": 50,
+    "type": "VIDEO",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "flytosydney.mp3",
+    "name": "Fly to sydney",
+    "bmp": 115,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "firstsnow.mp3",
+    "name": "First Snow",
+    "bmp": 120,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "InspiringPianoRomantic.mp3",
+    "name": "Inspiring Piano Romantic",
+    "bmp": 120,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "KidTheme.mp3",
+    "name": "Kid Theme",
+    "bmp": 120,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "VIDEO",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "PianoRomantic.mp3",
+    "name": "Piano Romantic",
+    "bmp": 120,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "LightPiano.mp3",
+    "name": "Light Piano",
+    "bmp": 120,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "KidsMusicFun.mp3",
+    "name": "Kids Music Fun",
+    "bmp": 120,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "strawberry.mp3",
+    "name": "Strawberry cupcake",
+    "bmp": 120,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "Dead.mp3",
+    "name": "Dead",
+    "bmp": 120,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "VIDEO",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "InspiringPiano_Korolkov.mp3",
+    "name": "Inspiring Piano",
+    "bmp": 120,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 2,
+    "tags": null
+  },
+  {
+    "path": "InspiringUpliftingSummerPop.mp3",
+    "name": "Inspiring Upliftin Summer",
+    "bmp": 125,
+    "startTime": 1,
+    "diamonds": 30,
+    "type": "VIDEO",
+    "version": 2,
+    "tags": null
+  },
+  {
+    "path": "EasterHoliday_Purpleplanet.mp3",
+    "name": "Easter Holiday",
+    "bmp": 125,
+    "startTime": 0.4,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "CorporateMotivate_MikeSounds.mp3",
+    "name": "Corporate Motivate",
+    "bmp": 125,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "Time_Lapse.mp3",
+    "name": "TheFatRat - Time Lapse",
+    "bmp": 128,
+    "startTime": 0.1,
+    "diamonds": 50,
+    "type": "HIDE",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "YouCanAchieve.mp3",
+    "name": "You Can Achieve",
+    "bmp": 128,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "Pophousetrapelectro_Frontmusic.mp3",
+    "name": "Pop House Trap Electro",
+    "bmp": 128,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "EDMFESTIVAL_MaikonMusic.mp3",
+    "name": "EDM Festival",
+    "bmp": 128,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "ThisisEDM.mp3",
+    "name": "This is EDM",
+    "bmp": 128,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "VIDEO",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "TheDubSteps_FASSounds.mp3",
+    "name": "The Dub Steps",
+    "bmp": 129,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "PlayfulClassic_Serginxs.mp3",
+    "name": "Playful Classic",
+    "bmp": 131,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "Evolve.mp3",
+    "name": "Evolve",
+    "bmp": 132,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "sunflowerday.mp3",
+    "name": "Sunflower day",
+    "bmp": 133,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "VIDEO",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "appleday.mp3",
+    "name": "Apple day",
+    "bmp": 133,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "Vanlentine2.mp3",
+    "name": "Valentine 2",
+    "bmp": 135,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "PianoBallad_Praded.mp3",
+    "name": "Piano Ballad",
+    "bmp": 137,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "Edmtrap_Mikebiz.mp3",
+    "name": "EDM Trap",
+    "bmp": 140,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "VIDEO",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "ChillTrap.mp3",
+    "name": "Chill Trap",
+    "bmp": 141,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "EasterBunny_Pressmaster.mp3",
+    "name": "Easter Bunny",
+    "bmp": 144,
+    "startTime": 0.35,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 0,
+    "tags": null
+  },
+  {
+    "path": "BeTrap.mp3",
+    "name": "Be Trap",
+    "bmp": 145,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 2,
+    "tags": null
+  },
+  {
+    "path": "ChristmasAdventure_Korolkov.mp3",
+    "name": "Christmas Adventure",
+    "bmp": 148,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "Energeticparty_Kicktracks.mp3",
+    "name": "Energetic Party",
+    "bmp": 149,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 2,
+    "tags": null
+  },
+  {
+    "path": "feelgoodday.mp3",
+    "name": "Feel good day",
+    "bmp": 150,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "VIDEO",
+    "version": 1,
+    "tags": null
+  },
+  {
+    "path": "FutureSport.mp3",
+    "name": "Future Sport",
+    "bmp": 150,
+    "startTime": 1,
+    "diamonds": 50,
+    "type": "LOCK",
+    "version": 1,
+    "tags": null
+  }
+]
