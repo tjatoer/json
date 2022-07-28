@@ -1,16 +1,13 @@
 {
   "Ads": [
             {
-            "pengaturan_iklan": "2",
+            "pengaturan_iklan": "1",
             "admob_banner": "ca-app-pub-3940256099942544/6300978111",
             "admob_inter": "ca-app-pub-3940256099942544/1033173712",
             "admob_native": "ca-app-pub-3940256099942544/2247696110",
             "admob_reward": "ca-app-pub-3940256099942544/5224354917",
             "admob_openads": "ca-app-pub-3940256099942544/3419835294",
-            "fan_inter": "0",
-            "fan_banner": "0",
-            "fan_native": "0",
-            "fan_reward": "0",
+            "appodeal_app_key": "5cfb6b322b36fc6960e045f83e3818f83166daff39541908",
             "startappid": "202759139"
             }
           ]
