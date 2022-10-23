@@ -1,0 +1,29 @@
+{
+"data": [
+			{
+			"nama": "Yogyakarta",
+			"status": "0",
+			"link": "null"
+			},
+			{
+			"nama": "Jakarta",
+			"status": "1",
+			"link": "https://samsat-pkb2.jakarta.go.id/"
+			},
+			{
+			"nama": "Jawa Barat",
+			"status": "1",
+			"link": "https://bapenda.jabarprov.go.id/infopkb/"
+			},
+			{
+			"nama": "Jawa Tengah",
+			"status": "2",
+			"link": "https://play.google.com/store/apps/details?id=com.jatengprov.bapenda.newsakpole"
+			},
+			{
+			"nama": "Jawa Timur",
+			"status": "1",
+			"link": "https://info.dipendajatim.go.id/index.php?page=info_pkb"
+			}
+		]
+}
