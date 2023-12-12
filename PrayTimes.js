@@ -30,30 +30,6 @@ http://praytimes.org/manual
 Calculation Formulas: 
 http://praytimes.org/calculation
 
-
-
-//------------------------ User Interface -------------------------
-
-
-	getTimes (date, coordinates [, timeZone [, dst [, timeFormat]]]) 
-	
-	setMethod (method)       // set calculation method 
-	adjust (parameters)      // adjust calculation parameters	
-	tune (offsets)           // tune times by given offsets 
-
-	getMethod ()             // get calculation method 
-	getSetting ()            // get current calculation parameters
-	getOffsets ()            // get current time offsets
-
-
-//------------------------- Sample Usage --------------------------
-
-
-	var PT = new PrayTimes('ISNA');
-	var times = PT.getTimes(new Date(), [43, -80], -5);
-	document.write('Sunrise = '+ times.sunrise)
-
-
 */
 	
 
@@ -68,41 +44,20 @@ function PrayTimes(method) {
 	
 	// Time Names
 	timeNames = {
-		imsak    : 'Imsak',
-		fajr     : 'Fajr',
-		sunrise  : 'Sunrise',
-		dhuhr    : 'Dhuhr',
-		asr      : 'Asr',
-		sunset   : 'Sunset',
-		maghrib  : 'Maghrib',
-		isha     : 'Isha',
-		midnight : 'Midnight'
+		imsak    : "Imsak",
+		subuh    : "Subuh",
+		dhuhur   : "Dhuhur",
+		ashar    : "Ashar",
+		maghrib  : "Maghrib",
+		isya     : "Isya",
 	},
 
 
 	// Calculation Methods
 	methods = {
-		MWL: {
-			name: 'Muslim World League',
-			params: { fajr: 18, isha: 17 } },
-		ISNA: {
-			name: 'Islamic Society of North America (ISNA)',
-			params: { fajr: 15, isha: 15 } },
-		Egypt: {
-			name: 'Egyptian General Authority of Survey',
-			params: { fajr: 19.5, isha: 17.5 } },
-		Makkah: {
-			name: 'Umm Al-Qura University, Makkah',
-			params: { fajr: 18.5, isha: '90 min' } },  // fajr was 19 degrees before 1430 hijri
-		Karachi: {
-			name: 'University of Islamic Sciences, Karachi',
-			params: { fajr: 18, isha: 18 } },
-		Tehran: {
-			name: 'Institute of Geophysics, University of Tehran',
-			params: { fajr: 17.7, isha: 14, maghrib: 4.5, midnight: 'Jafari' } },  // isha is not explicitly specified in this method
-		Jafari: {
-			name: 'Shia Ithna-Ashari, Leva Institute, Qum',
-			params: { fajr: 16, isha: 14, maghrib: 4, midnight: 'Jafari' } }
+		Depag: {
+			name: 'Kementerian Agama RI',
+			params: { subuh: 20, isya: 18 } }
 	},
 
 
@@ -112,52 +67,15 @@ function PrayTimes(method) {
 
 	},
  
- 
-	//----------------------- Parameter Values ----------------------
-	/*
+ 	//---------------------- Default Settings --------------------
 	
-	// Asr Juristic Methods
-	asrJuristics = [ 
-		'Standard',    // Shafi`i, Maliki, Ja`fari, Hanbali
-		'Hanafi'       // Hanafi
-	],
-
-
-	// Midnight Mode
-	midnightMethods = [ 
-		'Standard',    // Mid Sunset to Sunrise
-		'Jafari'       // Mid Sunset to Fajr
-	],
-
-
-	// Adjust Methods for Higher Latitudes
-	highLatMethods = [
-		'NightMiddle', // middle of night
-		'AngleBased',  // angle/60th of night
-		'OneSeventh',  // 1/7th of night
-		'None'         // No adjustment
-	],
-
-
-	// Time Formats
-	timeFormats = [
-		'24h',         // 24-hour format
-		'12h',         // 12-hour format
-		'12hNS',       // 12-hour format with no suffix
-		'Float'        // floating point number 
-	],
-	*/	
-
-
-	//---------------------- Default Settings --------------------
-	
-	calcMethod = 'MWL',
+	calcMethod = 'Depag',
 
 	// do not change anything here; use adjust method instead
 	setting = {  
 		imsak    : '10 min',
-		dhuhr    : '0 min',  
-		asr      : 'Standard',
+		dhuhur   : '0 min',  
+		ashar    : 'Standard',
 		highLats : 'NightMiddle'
 	},
 
@@ -295,8 +213,8 @@ function PrayTimes(method) {
 	},
 
 
-	// compute asr time 
-	asrTime: function(factor, time) { 
+	// compute ashar time 
+	asharTime: function(factor, time) { 
 		var decl = this.sunPosition(jDate+ time).declination;
 		var angle = -DMath.arccot(factor+ DMath.tan(Math.abs(lat- decl)));
 		return this.sunAngleTime(angle, time);
@@ -346,17 +264,17 @@ function PrayTimes(method) {
 		var params  = setting;
 		
 		var imsak   = this.sunAngleTime(this.eval(params.imsak), times.imsak, 'ccw');
-		var fajr    = this.sunAngleTime(this.eval(params.fajr), times.fajr, 'ccw');
+		var subuh   = this.sunAngleTime(this.eval(params.subuh), times.subuh, 'ccw');
 		var sunrise = this.sunAngleTime(this.riseSetAngle(), times.sunrise, 'ccw');  
-		var dhuhr   = this.midDay(times.dhuhr);
-		var asr     = this.asrTime(this.asrFactor(params.asr), times.asr);
+		var dhuhur  = this.midDay(times.dhuhur);
+		var ashar   = this.asharTime(this.asharFactor(params.ashar), times.ashar);
 		var sunset  = this.sunAngleTime(this.riseSetAngle(), times.sunset);;
 		var maghrib = this.sunAngleTime(this.eval(params.maghrib), times.maghrib);
-		var isha    = this.sunAngleTime(this.eval(params.isha), times.isha);
+		var isya    = this.sunAngleTime(this.eval(params.isya), times.isya);
 
 		return {
-			imsak: imsak, fajr: fajr, sunrise: sunrise, dhuhr: dhuhr, 
-			asr: asr, sunset: sunset, maghrib: maghrib, isha: isha
+			imsak: imsak, subuh: subuh, sunrise: sunrise, dhuhur: dhuhur, 
+			ashar: ashar, sunset: sunset, maghrib: maghrib, isya: isya
 		};
 	},
 
@@ -365,8 +283,8 @@ function PrayTimes(method) {
 	computeTimes: function() {
 		// default times
 		var times = { 
-			imsak: 5, fajr: 5, sunrise: 6, dhuhr: 12, 
-			asr: 13, sunset: 18, maghrib: 18, isha: 18
+			imsak: 5, subuh: 5, sunrise: 6, dhuhur: 12, 
+			ashar: 13, sunset: 18, maghrib: 18, isya: 18
 		};
 
 		// main iterations
@@ -377,7 +295,7 @@ function PrayTimes(method) {
 		
 		// add midnight time
 		times.midnight = (setting.midnight == 'Jafari') ? 
-				times.sunset+ this.timeDiff(times.sunset, times.fajr)/ 2 :
+				times.sunset+ this.timeDiff(times.sunset, times.subuh)/ 2 :
 				times.sunset+ this.timeDiff(times.sunset, times.sunrise)/ 2;
 
 		times = this.tuneTimes(times);
@@ -395,21 +313,21 @@ function PrayTimes(method) {
 			times = this.adjustHighLats(times);
 			
 		if (this.isMin(params.imsak))
-			times.imsak = times.fajr- this.eval(params.imsak)/ 60;
+			times.imsak = times.subuh- this.eval(params.imsak)/ 60;
 		if (this.isMin(params.maghrib))
 			times.maghrib = times.sunset+ this.eval(params.maghrib)/ 60;
-		if (this.isMin(params.isha))
-			times.isha = times.maghrib+ this.eval(params.isha)/ 60;
-		times.dhuhr += this.eval(params.dhuhr)/ 60; 
+		if (this.isMin(params.isya))
+			times.isya = times.maghrib+ this.eval(params.isya)/ 60;
+		times.dhuhur += this.eval(params.dhuhur)/ 60; 
 
 		return times;
 	},
 
 
-	// get asr shadow factor
-	asrFactor: function(asrParam) {
-		var factor = {Standard: 1, Hanafi: 2}[asrParam];
-		return factor || this.eval(asrParam);
+	// get ashar shadow factor
+	asharFactor: function(asharParam) {
+		var factor = {Standard: 1, Hanafi: 2}[asharParam];
+		return factor || this.eval(asharParam);
 	},
 
 
@@ -444,8 +362,8 @@ function PrayTimes(method) {
 		var nightTime = this.timeDiff(times.sunset, times.sunrise); 
 
 		times.imsak = this.adjustHLTime(times.imsak, times.sunrise, this.eval(params.imsak), nightTime, 'ccw');
-		times.fajr  = this.adjustHLTime(times.fajr, times.sunrise, this.eval(params.fajr), nightTime, 'ccw');
-		times.isha  = this.adjustHLTime(times.isha, times.sunset, this.eval(params.isha), nightTime);
+		times.subuh  = this.adjustHLTime(times.subuh, times.sunrise, this.eval(params.subuh), nightTime, 'ccw');
+		times.isya  = this.adjustHLTime(times.isya, times.sunset, this.eval(params.isya), nightTime);
 		times.maghrib = this.adjustHLTime(times.maghrib, times.sunset, this.eval(params.maghrib), nightTime);
 		
 		return times;
@@ -574,5 +492,3 @@ var DMath = {
 
 
 var prayTimes = new PrayTimes();
-
-
